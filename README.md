@@ -20,6 +20,6 @@ jekyll new mysite
 Run Jekyll:
 ```
 cd mysite
-bundle exec jekyll serve --host=0.0.0.0
+bundle exec jekyll serve --host=0.0.0.0 --force_polling
 ```
 Access your website from host OS at `http://localhost:4000`
